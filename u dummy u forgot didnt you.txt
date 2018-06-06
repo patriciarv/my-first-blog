@@ -1,0 +1,6 @@
+go to users\Arlene\django in command line
+type in myvenv\Scripts\activate to activate virtual environment
+type in python manage.py runserver to start server
+type in http://127.0.0.1:8000/admin/ into internet browser to see posts before homepage was made
+
+remove url(r'', include('blog.urls')), from urls.py in mysite directory before doing this
